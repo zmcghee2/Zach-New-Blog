@@ -1,0 +1,27 @@
+While creating my blog, I wanted to keeping things simple. In 
+my straight to the point version of my website, I thought 
+that just having the information be as clear as possible would
+convey my accomplishments best, so having a white background
+with words would suffice for now. 
+
+First things first, I had to make the "index.html" and 
+"style.css" files and connect them by putting a link tag in the 
+header of the html file with an href attribute pointing to 
+"style.css". Then I had to initialize the css file by setting 
+both the margin and padding to the body to 0px, setting the 
+box-sizing to border-box, and importing a url from Google Fonts 
+at the top of the file so I could have the font that I want.
+
+Next, I needed to make sure I sectioned my website the way I 
+wanted, so I made a container with 20% padding on the left and 
+right sides in order to neatly format my content in the center. 
+Then I thought of the parts of the website that I knew I wouldn't
+change much and came to the conclusion that the header and
+footer sections would be just that. To keep track of the
+sections, I put borders of "1px solid black" around both of
+them and along with background colors. 
+
+To keep things simple, I just put a title on the blog in the 
+header and links to my social media accounts in the footer. For
+the contents in the body, I'll create p tags in the html file
+and fill them in with the information there.
