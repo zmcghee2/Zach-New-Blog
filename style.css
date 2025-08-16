@@ -14,14 +14,14 @@ html, body{
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    margin: 0px 0px 7px 0px;
+    margin: 5px 0px 0px 0px;
+    /*border: 1px solid black;*/
 }
 .footer{
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    border: 1px solid black;
 }
 .socials{
     font-size: 0.75rem;
@@ -29,9 +29,27 @@ html, body{
     list-style: none;
     gap: 30px;
 }
-.socials li a{
-    color: black;
-    text-decoration: none;
-    border: 1px solid black;
-    padding: 3px 3px;
+.socials a img{
+    width: 30px;
+}
+.main-content{
+    margin: -5px 0px 22px 0px;
+    padding: 5px;
+}
+.introduction h3{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 0px;
+}
+.introduction p{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    word-spacing: 1px;
+}
+@media screen and (max-width: 768px){
+    .socials a img{
+        width: 30px;
+    }
 }
