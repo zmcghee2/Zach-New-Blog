@@ -28,28 +28,32 @@ html, body{
     display: flex;
     list-style: none;
     gap: 30px;
+    padding: 0px;
 }
 .socials a img{
     width: 30px;
 }
 .main-content{
+    display: flex;
+    justify-content: center;
     margin: -5px 0px 22px 0px;
-    padding: 5px;
 }
 .introduction h3{
     display: flex;
     justify-content: center;
     text-decoration: underline;
-    margin-top: 0px;
+    margin: 0px 0px -7px 0px;
 }
 .introduction p{
-    display: flex;
-    justify-content: center;
-    margin: 0px 0px 0px 0px;
+    text-align: center;
     word-spacing: 1px;
 }
 @media screen and (max-width: 768px){
     .socials a img{
         width: 30px;
     }
+    .blog-container{
+    padding: 7px 15% 7px 15%;
+    height: 100vh;
+}
 }
